@@ -1,2 +1,6 @@
-# Proyecto_Lab108_WR
-Proyecto de POO. Laboratorio 1.08. 
+# Proyecto_Lab108_WR 
+Curso: Programación Orientada a Objetos.
+
+Integrantes:
+- Rafael Lozada.
+- Juan Pablo Lozada.
