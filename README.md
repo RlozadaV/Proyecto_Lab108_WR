@@ -2,5 +2,5 @@
 Curso: Programación Orientada a Objetos.
 
 Integrantes:
-- Rafael Arturo Lozada Velasco.
-- Juan Pablo Miguel Lozada Velasco
+- Rafael Arturo Lozada Velasco (
+- Juan Pablo Miguel Lozada Velasco (IWeseI)
