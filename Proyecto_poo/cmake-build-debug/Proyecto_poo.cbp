@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Proyecto_poo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_poo">
+				<Option output="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug/Proyecto_poo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 Proyecto_poo"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proyecto_poo/fast">
+				<Option output="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug/Proyecto_poo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 Proyecto_poo/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Wese/CLionProjects/Proyecto_poo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\Wese\CLionProjects\Proyecto_poo\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Almacen.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Almacen.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Help.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Instruccion.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Instruccion.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Producto.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Producto.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Robot.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Robot.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Slot.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/Slot.h">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/main.cpp">
+			<Option target="Proyecto_poo"/>
+		</Unit>
+		<Unit filename="C:/Users/Wese/CLionProjects/Proyecto_poo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
