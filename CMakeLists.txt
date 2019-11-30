@@ -3,4 +3,4 @@ project(ProyectoPOO)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ProyectoPOO main.cpp Almacen.h Almacen.cpp Instruccion.h Instruccion.cpp Slot.h Slot.cpp Robot.h Robot.cpp Help.h Producto.h Producto.cpp)
+add_executable(ProyectoPOO main.cpp Almacen.h Almacen.cpp Instruccion.h Instruccion.cpp Slot.h Slot.cpp Robot.h Robot.cpp Help.h)

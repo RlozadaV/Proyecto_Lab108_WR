@@ -7,7 +7,17 @@
 Instruccion::Instruccion() {
 Producto = "a";
 Operacion = "a";
+mov ={};
 }
+
+void Instruccion::add_mov(vector<int> m) {
+mov.push_back(m);
+}
+
+vector<vector<int>> Instruccion::Get_mov() {
+    return mov;
+}
+
 
 void Instruccion::Set_posicion_destino(number x, number y) {
 Posicion_destino = {x,y};

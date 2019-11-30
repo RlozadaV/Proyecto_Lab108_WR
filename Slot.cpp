@@ -8,7 +8,7 @@ Slot::Slot() {
 Producto = "a";
 Posicion_almacen = {0,0};
 Estado = "Moderado";
-Capacidad = 10;
+Capacidad = 5;
 }
 
 void Slot::Set_capacidad(int x) {
@@ -33,7 +33,7 @@ posicion Slot::Get_posicion() {
 }
 
 void Slot::Set_estado(tipo x) {
-Estado = x;
+Estado = std::move(x);
 }
 
 tipo Slot::Get_estado() {
@@ -45,7 +45,7 @@ number Slot::Get_capacidad() {
 }
 
 void Slot::Set_tipo_producto(tipo x) {
-Producto = x;
+Producto = std::move(x);
 }
 
 tipo Slot::Get_tipo_producto() {

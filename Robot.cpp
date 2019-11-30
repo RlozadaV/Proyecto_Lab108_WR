@@ -11,13 +11,6 @@ Numero_robot = 0;
 Instrucciones = {};
 }
 
-void Robot::Ingresar() {
-
-}
-
-void Robot::Retirar() {
-
-}
 
 posicion Robot::Get_posicion_inicial() {
     return Posicion_inicial;
@@ -25,6 +18,7 @@ posicion Robot::Get_posicion_inicial() {
 
 void Robot::Set_posicion_inicial(number x, number y) {
 Posicion_inicial = {x,y};
+Posicion_actual = {x,y};
 }
 
 number Robot::Get_numero_robot() {
@@ -43,8 +37,12 @@ i.Set_producto(producto);
 Instrucciones.push_back(i);
 }
 
-Instruccion Robot::Get_instruccion(number x) {
-    return Instrucciones[x];
+vector<Instruccion> Robot::Get_instruccion() {
+    return Instrucciones;
+}
+
+void Robot::Quitar_intruccion() {
+    Instrucciones.erase(Instrucciones.begin() + 0);
 }
 
 posicion Robot::Get_posicion_actual() {

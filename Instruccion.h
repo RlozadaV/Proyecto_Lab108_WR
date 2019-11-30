@@ -11,6 +11,7 @@ private:
     tipo Operacion;
     vector<number> Posicion_destino;
     tipo Producto;
+    vector<vector<int>> mov;
 public:
     Instruccion();
     void Set_posicion_destino(number x, number y);
@@ -19,6 +20,9 @@ public:
     tipo Get_operacion();
     void Set_producto(tipo x);
     tipo Get_producto();
+    void add_mov(vector<int> m);
+    vector<vector<int>> Get_mov();
+
 };
 
 
